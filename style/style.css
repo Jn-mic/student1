@@ -1,0 +1,30 @@
+  body{ 
+    background-color: rgb(167, 175, 167);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ #main{
+    justify-content: center;
+    align-self: baseline;
+    margin-left: 30rem;
+    padding-top: 1rem;
+    
+ }
+ img{
+    border-radius: 50%;
+    
+ }
+ .container{
+   display: flex;
+   margin-left: 2 rem;
+   font-size: 3rem;
+ }
+ form{
+  background-color: rgb(133, 224, 224);
+  margin-right: 30rem;
+  margin-left: 2rem;
+  border-radius:10px ;
+ }
+ ::after form{
+  padding-top: 3rem;
+ }
