@@ -1,0 +1,111 @@
+    
+    
+    *{box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+     .container{
+        display: flex;
+        margin: 3rem;
+        background-color: rgb(213, 117, 117);
+     }
+
+     nav{ 
+        background-color: rgb(238, 163, 163);
+        padding: 1px;
+        padding-top: 1rem;
+    }
+    .logo{
+        justify-content: flex-start;
+        height: 80px;
+        margin: 2rem;
+        border-radius: 50%;
+    }
+
+     ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-family: 'Roboto', sans-serif;
+        gap: 8rem;
+        margin: 1rem;
+        list-style: none;    
+     }
+     h1{
+        padding: 2rem;
+     }
+
+     .co{
+        margin: 3rem;
+        background-color: bisque;
+        border: 1px solid blue;
+        border-radius: 5px;
+        outline-style: solid;
+        outline-color: pink;
+        outline-width: 4px;
+        unicode-bidi: bidi-override;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+
+
+     }
+     .viv{
+        text-transform: capitalize;
+        color: rgb(39, 207, 179);
+     }
+     .inside{
+      align-items: center;
+      margin: 2rem;
+      font-family: 'Great Vibes', cursive;
+     
+     }
+     .inside::first-letter{
+      font-family: lucida Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 3cm;
+      color: red;
+      text-shadow: 3px 4px 5px green;
+     }
+
+     .my-element{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      padding-block: 2rem;
+      width: min(95%, 80rem);
+      margin-inline: auto;
+      border-radius: 2px;
+     }
+     .grid-span-2{
+      grid-column: span 2;
+     }
+     .box{
+      border: .1rem solid rgb(221, 17, 136);
+      border-radius: 10px
+     }
+     .box:last-child{
+      grid-column-start: 4;
+      grid-row: 1/4;
+      background-color: green;
+     }
+     .logo:last-child{
+      padding-top: 6rem;
+      background-color: red;
+     }
+     .btn  {
+      text-align: center;
+      border-radius: 10px;
+      padding: 0.58rem;
+      margin-left: 0.3rem;
+     }
+
+     span {
+         text-transform: capitalize;
+         color:rgb(221, 17, 136);
+         text-align: start;
+     }
+     
+
+     
+     
+   
